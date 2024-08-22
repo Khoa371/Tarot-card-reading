@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Đặt vị trí dưới cùng */
+    height: 100vh; /* Chiều cao toàn màn hình */
+    background-color: #f3f3f3;
+    font-family: Arial, sans-serif;
+}
+
+.music-player {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Cách một chút so với dưới cùng */
+}
+
+.music-player audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#play-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#play-button:hover {
+    background-color: #777;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rút 3 Lá Bài Tarot</title>
+    <link rel="stylesheet" href="Tarotcardreading.css">
+</head>
+<body>
+    <header>
+        <h1>Rút 3 Lá Bài Tarot</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Trang Chủ</a></li>
+                <li><a href="openTarot.html">Mở Bài Tarot</a></li>
+                <li><a href="drawcard.html">Bói Bài Tarot</a></li>
+                <li><a href="Tarotcardreading.html">Rút 3 Lá Bài Tarot</a></li>
+            </ul>
+        </nav>
+        <audio id="background-music" src="music.mp3" autoplay loop></audio>
+    </header>
+    <main>
+        <h2>Rút 3 Lá Bài Tarot</h2>
+        <button id="draw-cards">Rút 3 Lá Bài</button>
+        <div id="card-results">
+            <div class="card" id="card1">
+                <img id="card1-image" src="" alt="Lá bài 1">
+                <h3 id="card1-title"></h3>
+                <p id="card1-description"></p>
+            </div>
+            <div class="card" id="card2">
+                <img id="card2-image" src="" alt="Lá bài 2">
+                <h3 id="card2-title"></h3>
+                <p id="card2-description"></p>
+            </div>
+            <div class="card" id="card3">
+                <img id="card3-image" src="" alt="Lá bài 3">
+                <h3 id="card3-title"></h3>
+                <p id="card3-description"></p>
+            </div>
+        </div>
+        <div id="summary" style="display:none;">
+            <h3>Tổng Hợp Ý Nghĩa</h3>
+            <p id="summary-description"></p>
+        </div>
+        <button id="back-home">Quay Lại Trang Chủ</button>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tuấn Khoa.<br>Bản quyền thuộc về Tuấn Khoa.<p>
+    </footer>
+    <script src="Tarotcardreading.js"></script>
+</body>
+</html>

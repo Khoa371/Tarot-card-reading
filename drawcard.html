@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bói Bài Tarot</title>
+    <link rel="stylesheet" href="drawcard.css">
+</head>
+<body>
+    <header>
+        <h1>Bói Bài Tarot</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Trang Chủ</a></li>
+                <li><a href="openTarot.html">Mở Bài Tarot</a></li>
+                <li><a href="drawcard.html">Bói Bài Tarot</a></li>
+                <li><a href="Tarotcardreading.html">Rút 3 Lá Bài Tarot</a></li>
+            </ul>
+        </nav>
+        <audio id="background-music" src="tarot_tarot.mp3" autoplay loop></audio>
+    </header>
+    <main>
+        <h2>Bói Bài Tarot Dựa Trên Câu Hỏi Của Bạn</h2>
+        <form id="question-form">
+            <label for="question">Đặt câu hỏi:</label>
+            <input type="text" id="question" name="question" placeholder="Nhập câu hỏi của bạn" required>
+            <button type="submit">Rút Lá Bài</button>
+        </form>
+        <div id="card-display" style="display:none;">
+            <img id="card-image" src="" alt="Lá bài">
+            <h3 id="card-title"></h3>
+            <p id="card-description"></p>
+        </div>
+        <button id="back-home">Quay Lại Trang Chủ</button>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tuấn Khoa.<br>Bản quyền thuộc về Tuấn Khoa.<p>
+    </footer>
+    <script src="drawcard.js"></script>
+</body>
+</html>
